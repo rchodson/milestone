@@ -1,0 +1,143 @@
+body {
+  background-color: #1f202b;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #ee9150;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+a:hover, nav a:hover {
+  color: #ed1474;
+}
+
+.container {
+  width: 1400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  color: #ffffff;
+  padding-left: 25px;
+  font-size: 30px;
+  height: 100px;
+  margin: 0;
+}
+
+.logo img, .logo p {
+  float: left;
+  color: #ed1474;
+}
+
+.links ul, .links li, .links a {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 25px;
+  margin: 0;
+  float: right;
+  color: #ffffff;
+}
+
+.hero {
+  clear: both;
+  background-image: url("../img/hero-background.png");
+  height: 725px;
+  width: 1400px;
+}
+
+.highlight {
+  color: #ed1474;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+  font-size: 4em;
+  padding-top: 300px;
+}
+
+h2 {
+  color: #ed1474;
+  text-transform: lowercase;
+  font-size: 2.5em;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h4 {
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+#portfolio, #contact {
+  text-align: center;
+}
+
+.contain-section {
+  clear: both;
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.left {
+  width: 550px;
+  margin: 25px;
+  float: left;
+}
+
+.right {
+  width: 550px;
+  margin: 25px;
+  float: right;
+}
+
+#about {
+  height: 550px;
+  text-align: center;
+  background-image: url("../img/about-me25pct.png");
+}
+
+#about h2 {
+  margin-bottom: 0;
+}
+
+.bio {
+  padding: 0 500px 25px 100px;
+  text-align: left;
+}
+
+.third-width {
+  text-align: center;
+  width: 460px;
+  float: left;
+  padding: 0;
+}
+
+footer {
+  clear: both;
+  font-size: .75em;
+  padding: 20px 0;
+  text-align: center;
+  border-top: solid;
+  border-width: 1px;
+  border-color: black;
+}
